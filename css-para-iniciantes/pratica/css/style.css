@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #3db36b;
+  border-bottom: 3px solid #0f642f;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Grid de produtos  */
+.container {
+  background-color: #eee;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.products-container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.card {
+  display: inline-block;
+  margin: 1%;
+  padding: 15px;
+  width: 31%;
+}
+
+.product-image {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#img-1 {
+  background-image: url('../img/tenis1.jpg');
+}
+
+#img-2 {
+  background-image: url('../img/tenis2.jpg');
+}
+
+#img-3 {
+  background-image: url('../img/tenis3.jpg');
+}
+
+#img-4 {
+  background-image: url('../img/tenis4.jpg');
+}
+
+#img-5 {
+  background-image: url('../img/tenis5.jpg');
+}
+
+#img-6 {
+  background-image: url('../img/tenis6.jpg');
+}
+
+h3 {
+  border-left: 5px solid #0f642f;
+  color: #3db36b;
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-left: 7px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #3db36b;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .5s;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #0f642f;
+}
+
+/* Rodapé */
+footer {
+  background-color: #3db36b;
+  border-top: 3px solid #0f642f;
+  color: #fff;
+  padding: 80px;
+  text-align: center;
+}

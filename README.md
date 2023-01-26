@@ -3,3 +3,4 @@
 
 - [HTML para iniciantes](/html-para-iniciantes/README.md)
 - [HTML semântico](/html-semantico/README.md)
+- [CSS para iniciantes](/css-para-iniciantes/README.md)
