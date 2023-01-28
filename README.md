@@ -5,3 +5,4 @@
 - [HTML semântico](/html-semantico/README.md)
 - [CSS para iniciantes](/css-para-iniciantes/README.md)
 - [CSS position](/css-position/README.md)
+- [CSS flexbox](/css-flexbox/README.md)

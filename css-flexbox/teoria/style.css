@@ -1,0 +1,70 @@
+body {
+  padding-bottom: 500px;
+}
+
+/* Container */
+.container {
+  /* Alinhamento vertical */
+  align-items: center;
+  background-color: #eef;
+  border: 2px solid red;
+  display: flex;
+  /* Define a disposição dos elementos na linha */
+  /* flex-wrap: wrap; */
+  height: 300px;
+  /* Alinhamento horizontal */
+  justify-content: space-between;
+  max-width: 300px;
+  padding: 15px;
+}
+
+.item {
+  background-color: #ccc;
+  border: 2px solid blue;
+  height: 50px;
+  width: 50px;
+}
+
+/* Itens */
+.box {
+  background-color: #ccc;
+  border: 2px solid blue;
+  /* Define o tamanho principal inicial de um item flexível */
+  /* flex-basis: 100px; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  /* Shorthand para item */
+  /* grow, shrink e  basis */
+  flex: 1 1 100px;
+  height: 50px;
+}
+
+/* #item-1 { */
+  /* Define como um item vai crescer no layout */
+  /* flex-grow: 2; */
+/* } */
+
+/* #item-2,
+#item-3 {
+  flex-grow: 1;
+} */
+
+/* #item-2 {
+  flex-basis: 100px;
+} */
+
+/* #item-3 {
+  flex-shrink: 2;
+} */
+
+#item-2 {
+  order: 1;
+}
+
+#item-3 {
+  order: 2;
+}
+
+#item-1 {
+  order: 3;
+}
