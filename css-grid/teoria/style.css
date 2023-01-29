@@ -1,0 +1,117 @@
+/* Grid início */
+.container {
+  background-color: #333;
+  border: 3px solid red;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 50px auto 10%;
+  grid-template-rows: 70% 30%;
+  height: 35vh;
+  padding: 15px;
+}
+
+.container div {
+  background-color: #ccc;
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+/* Template areas */
+.container-2 {
+  background-color: #333;
+  border: 3px solid red;
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+    'header header header header'
+    'sidebar content content content'
+    'footer footer footer footer';
+  padding: 15px;
+}
+
+.container-2 div {
+  background-color: #ccc;
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+#header {
+  grid-area: header;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  height: 50vh;
+}
+
+#content {
+  grid-area: content;
+  height: 50vh;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+/* Alinhamento */
+.container-3 {
+  /* Vertical */
+  align-items: center;
+  background-color: #333;
+  border: 3px solid red;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 50vh;
+  /* Horizontal */
+  justify-content: center;
+  padding: 15px;
+}
+
+.container-3 div {
+  background-color: #ccc;
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+/* Itens individuais */
+.container-4 {
+  background-color: #333;
+  border: 3px solid red;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 15px;
+}
+
+.container-4 div {
+  background-color: #ccc;
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+#item-1 {
+  grid-column-end: 4;
+  grid-column-start: 1;
+}
+
+#item-2 {
+  grid-row-end: 4;
+  grid-row-start: 2;
+}
+
+#item-3 {
+  height: 200px;
+  justify-self: end;
+}
+
+#item-4 {
+  align-self: center;
+}
+
+#item-5 {
+  height: 200px;
+  justify-self: start;
+}
+
+#item-6 {
+  align-self: end;
+}
