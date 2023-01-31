@@ -8,3 +8,4 @@
 - [CSS flexbox](/css-flexbox)
 - [CSS grid](/css-grid)
 - [CSS media queries](/css-media-queries)
+- [Modal](/modal)
