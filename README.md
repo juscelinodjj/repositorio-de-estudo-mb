@@ -9,3 +9,4 @@
 - [CSS grid](/css-grid)
 - [CSS media queries](/css-media-queries)
 - [Modal](/modal)
+- [Web Storage API](/web-storage-api)
