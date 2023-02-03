@@ -1,0 +1,116 @@
+* {
+  border: none;
+  box-sizing: border-box;
+  color: #323232;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position-y: -200px;
+}
+
+input:focus {
+  outline: none;
+}
+
+a,
+label {
+  /* Tamanho de fonte padrão * .8 */
+  font-size: .8rem;
+}
+
+a:hover {
+  color: #08558b;
+}
+
+#login-container {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  padding: 20px 30px;
+  text-align: center;
+  width: 400px;
+}
+
+form {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+label,
+input {
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+input:focus {
+  border-bottom: 1px solid #08558b;
+}
+
+#forgot-pass {
+  display: block;
+  text-align: right;
+}
+
+input[type="submit"] {
+  background-color: #08558b;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+  background-color: #1b223c;
+  transition: .5s;
+}
+
+#social-container,
+#social-container p {
+  margin-bottom: 20px;
+}
+
+#social-container i {
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 5px;
+  width: 40px;
+}
+
+.fa-facebook-f {
+  background-color: #3b5998;
+}
+
+.fa-linkedin {
+  background-color: #0077b5;
+}
+
+#register-container p {
+  margin-bottom: 10px;
+}
